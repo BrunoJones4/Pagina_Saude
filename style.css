@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    --webkit-font-smoothing:antialised;
+    --mos-osx-font-smoothing: grayscale;
+}
+
+body {
+    text-align: center;
+    padding-top: 275px;
+    background-image: url(./saude.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Beth Ellen';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 120px;
+    color: #EBF1FB;
+    margin-bottom: 4px;
+}
+
+span {
+    color: #5EEAD4;
+}
+
+p {
+    font-family: 'Spectral';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EBF1FB;
+    margin-bottom: 72px;
+}
+
+a {
+    padding: 16px 32px;
+    color: #EBF1FB;
+    font-family: 'Spectral';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+a:hover, #link-recipes {
+    text-decoration: none;
+    border-radius: 8px;
+    background: #5EEAD4;
+    color: #0B0C0E;
+    font-family: 'Spectral';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+}
